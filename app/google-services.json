@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "472342371223",
+    "project_id": "pencatatan-pengeluaran-pasar",
+    "storage_bucket": "pencatatan-pengeluaran-pasar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472342371223:android:0415aadf41d1b3b67b42d2",
+        "android_client_info": {
+          "package_name": "id.hridev.pengeluaranpasarlainnya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472342371223-h7lcv57tfa44bn2nlpuhb595v0hv6acq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhuHn25fbxVlzK6myzJxvJ0rSkSg0EPHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472342371223-h7lcv57tfa44bn2nlpuhb595v0hv6acq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:id="@+id/drawerLayout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9F9F9">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/shape_purple"/>
+
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-60dp"
+                android:fontFamily="@font/poppinssemibold"
+                android:text="Selamat Datang Kembali!"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/welcome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Silahkan pilih Periode Laporan Pencatatan Pengeluaran Pasar!"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <!--  kuartal I 2022-->
+            <LinearLayout
+                android:id="@+id/kuartal12022"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/text1"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/card_periode"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="Kuartal I 2022"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="Januari - Maret"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <!--  kuartal IV 2021-->
+            <LinearLayout
+                android:id="@+id/kuartal42021"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/kuartal12022"
+                android:layout_margin="15dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_periode">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kuartal IV 2021"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/poppins_black"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_marginLeft="20dp"
+                    android:text="Oktober - Desember"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--  kuartal III 2021-->
+            <LinearLayout
+                android:id="@+id/kuartal32021"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/kuartal42021"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="vertical"
+                android:background="@drawable/card_periode">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Kuartal III 2021"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/poppins_black"
+                    android:textColor="@color/white"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:layout_marginLeft="20dp"
+                    android:text="Juli - September"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--  kuartal II 2021-->
+            <LinearLayout
+                android:id="@+id/kuartal22021"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/kuartal32021"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/card_periode"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="Kuartal II 2021"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="April - Juni"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <!--  kuartal I 2021-->
+            <LinearLayout
+                android:id="@+id/kuartal12021"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_below="@id/kuartal22021"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/card_periode"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="Kuartal II 2021"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="20dp"
+                    android:fontFamily="@font/poppinssemibold"
+                    android:text="April - Juni"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationView"
+        app:menu="@menu/main_menu"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="start">
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

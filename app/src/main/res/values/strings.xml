@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pencatatan Pengeluaran Pasar Lainnya</string>
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <string-array name="kategori">
+        <item>Pilih Kategori</item>
+        <item>Listrik</item>
+        <item>Sewa Gedung</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>
